@@ -1,4 +1,32 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "Markdown",
+  "main": "index.js",
+  "bin": {
+    "md-links": "./cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaniaEJuarez/MEX008-FE-md-link.git"
+  },
+  "keywords": [
+    "Jest",
+    "Markdown"
+  ],
+  "author": "Tania E Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaniaEJuarez/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/TaniaEJuarez/MEX008-FE-md-link#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }

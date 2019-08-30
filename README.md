@@ -1,5 +1,11 @@
 # Markdown Links
 
+## Diagrama de flujo
+El siguiente diagrama de flujo, muestra el algoritmo para la ejecución de la revisión del archivo Markdown ejecutado a traves de Node.js
+
+![diagramaFlujo](diagramaFlujo.png)
+
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
