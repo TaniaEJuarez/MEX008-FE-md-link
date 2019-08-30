@@ -1,7 +1,7 @@
 # Markdown Links
 
 ## Diagrama de flujo
-El siguiente diagrama de flujo, muestra el algoritmo para la ejecución de la revisión del archivo Markdown ejecutado a traves de Node.js
+El siguiente diagrama de flujo, muestra el algoritmo para la ejecución de la libreria con Node.js
 
 ![diagramaFlujo](diagramaFlujo.png)
 
