@@ -10,7 +10,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src -d"
   },
   "repository": {
     "type": "git",
@@ -20,13 +21,21 @@
     "Jest",
     "Markdown"
   ],
-  "author": "Tania E Juarez",
-  "license": "ISC",
+  "author": "Tania E Juarez <telizabethjdiaz@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TaniaEJuarez/MEX008-FE-md-link/issues"
   },
   "homepage": "https://github.com/TaniaEJuarez/MEX008-FE-md-link#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "yargs": "^14.0.0"
   }
 }
