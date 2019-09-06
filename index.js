@@ -1,11 +1,4 @@
 
-let fs = require('fs');
-let file = process.argv[2] // guardar el arreglo en una variable. indicar a partir de que posicion inicia el path //
-    // Declarar una variable para guardar el buffer que nos resulta de fs //
-    let buf = fs.readFileSync(file);
-    let str = buf.toString(); // pasar el buffer reultante a un string //
-    console.log(str.match(new RegExp('https://')).length); // colocar a partir de qué signo inicia a leer el path //
-
 
   // module.exports = () => {
   // // // Caso 2 .- Ruta relativa con option (validate)
