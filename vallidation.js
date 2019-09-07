@@ -1,7 +1,7 @@
 function fileValidation(){
-    var fileInput = document.getElementById('file');
-    var filePath = fileInput.value;
-    var allowedExtensions = /(.md)$/i;
+    const fileInput = document.getElementById('file');
+    const filePath = fileInput.value;
+    const allowedExtensions = /(.md)$/i;
     if(!allowedExtensions.exec(filePath)){
         alert('Favor de cargar el archivo con la extensión correcta.');
         fileInput.value = '';
@@ -9,7 +9,7 @@ function fileValidation(){
     }else{
         //Image preview
         if (fileInput.files && fileInput.files[0]) {
-            var reader = new FileReader();
+            const reader = new FileReader();
             reader.onload = function(e) {
                 document.getElementById('imagePreview').innerHTML = '<img src="'+e.target.result+'"/>';
             };
